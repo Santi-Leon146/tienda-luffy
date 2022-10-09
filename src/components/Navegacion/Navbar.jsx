@@ -16,19 +16,19 @@ function Navbar(){
                 <li className="menu-item">
                         <a href="##" className="menu-link">login</a>
                     </li>
-                    <li className="menu-item">
-                        <a href="/items" className="menu-link">inicio</a>
-                    </li>
-                    <li className="menu-item">
-                        <Link to="/" className="menu-link">productos</Link>
-                    </li>
-                    <li className="menu-item">
-                        <a href="##" className="menu-link">quienes somos?</a>
-                    </li>
-                    <li className="menu-item">
-                        <a href="##" className="menu-link">carrito</a>
-                    </li>
                     <li className='menu-item'>
+                        <Link to= "/" className='menu-link'>Mangas</Link>
+                    </li>
+                   <li className="menu-item">
+                        <Link to="/category/narrativa" className="menu-link">narrativa</Link>
+                    </li>
+                    <li className="menu-item">
+                        <Link to="/category/aventura" className="menu-link">aventuras</Link>
+                    </li>
+                    <li className="menu-item">
+                        <Link to="/category/batallas" className="menu-link">batallas</Link>
+                    </li>
+                   <li className='menu-item'>
                         <Cart/>
                     </li>
                 </ul>

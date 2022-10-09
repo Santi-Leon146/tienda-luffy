@@ -7,9 +7,11 @@ function itemListContainer(greeting) {
     <div>
        {/*  <h1>{props.greeting}</h1>  */}
         <div className='main-container'>
-        <ItemList title= "Mangaca de devilMan" descripcion= "lorem lipsum" precio="1500"/>
-        <ItemList title= "Naruto Gaiden"/>
-        <ItemList title= "Dr Slump"/> 
+      {/*  <Item title= "Mangaca de devilMan" descripcion= "lorem lipsum" precio="1500"/>
+        <Item title= "Naruto Gaiden"/>
+        <Item title= "Dr Slump"/>  */}
+        <ItemList/> 
+        <ItemList/>
        {/*  <ItemList/>  */}
         
         </div>
